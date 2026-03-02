@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="/src/css/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karta</title>
+</head>
+
+<body>
+    <header id="header">
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">Startsida</a></li>
+                <li><a href="SASS.html">SASS</a></li>
+                <li><a href="animering.html">Animeringar</a></li>
+                <li><a href="diagram.html">Diagram</a></li>
+                <li><a href="karta.html">Karta</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="mainMap">
+        <h1>Karta</h1>
+        <div id="mapContainer">
+        
+        <section id="searchContainer"><label for="search">Sök</label>
+            <input type="text" id="search">
+            <button id="searchBtn">Sök plats</button>
+        </section>
+        <div id="map">
+
+
+        </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <ul id="footerNav">
+            <li><a href="#">Till toppen</a></li>
+        </ul>
+    </footer>
+    <script type="module" src="/src/css/karta.js"></script>
+</body>
+
+</html>
