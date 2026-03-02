@@ -43,6 +43,16 @@ var nameResult = null
 async function search() {
     let searchBar = document.getElementById("search")
     let geoSearch = searchBar.value
+    var errorList = document.getElementById("errorList")
+
+    if (geoSearch == "")
+    {      
+        errorList.innerHTML = "";
+        let error = document.createElement("li")
+        error.innerHTML = "Du måste ange en plats"
+        errorList.appendChild(error)
+        return;
+    }
     try {
         let response = await fetch(`https://geocoding-api.open-meteo.com/v1/search?name=${geoSearch}&count=5`)
         var result = await response.json();
