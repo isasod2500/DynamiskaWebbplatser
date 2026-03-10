@@ -2,7 +2,7 @@
 
 ## https://dynamiskawebbplatser.onrender.com/
 
-##[JSDoc](https://github.com/isasod2500/DynamiskaWebbplatser/blob/main/DynamiskaWebbplatser-main/out/diagram.js.html)
+## [JSDoc](https://github.com/isasod2500/DynamiskaWebbplatser/blob/main/DynamiskaWebbplatser-main/out/diagram.js.html)
 
 Dynamisk webbplats som hämtar information från MIUNs API för kurs- och programstatistik.
 
