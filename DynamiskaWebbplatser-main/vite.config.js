@@ -17,6 +17,8 @@ export default defineConfig({
                 karta: resolve(__dirname, "karta.html"),
                 diagram: resolve(__dirname, "diagram.html"),
                 JSDoc: resolve(__dirname, "out/JSDoc.html"),
+                JSDocGlobal: resolve(__dirname, "out/global.html"),
+                JSDocDiagram: resolve(__dirname, "out/diagramJSDoc.html"),
             }
         }
     },
