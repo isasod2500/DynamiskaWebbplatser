@@ -16,6 +16,7 @@ export default defineConfig({
                 animering: resolve(__dirname, "animering.html"),
                 karta: resolve(__dirname, "karta.html"),
                 diagram: resolve(__dirname, "diagram.html"),
+                JSDoc: resolve(__dirname, "out/JSDoc.html"),
             }
         }
     },
